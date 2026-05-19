@@ -24,7 +24,8 @@ To identify efficient and specific guide RNAs for targeting the EGFP gene using 
 The EGFP nucleotide sequence was retrieved from the NCBI database in FASTA format.
 
 ### Figure
-![NCBI Sequence](figures/ncbi_sequence.png)
+![NCBI Sequence] ![Uploading ncbi_fasta.png…]()
+
 
 ---
 
