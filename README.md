@@ -4,6 +4,7 @@ Computational design and analysis of CRISPR-Cas9 guide RNAs targeting the Enhanc
 
 
 📌 Project Overview
+
 This project demonstrates a complete computational pipeline for designing CRISPR-Cas9 guide RNAs against the EGFP gene. Starting from raw sequence retrieval through PAM identification, guide prediction, and off-target validation, each step is documented with tool outputs and selection criteria.
 Key highlights:
 
@@ -14,6 +15,7 @@ Multi-parameter filtering (efficiency score, GC content, MM values)
 
 
 🎯 Objective
+
 To identify efficient and specific CRISPR-Cas9 guide RNAs targeting the EGFP gene using computational bioinformatics tools, prioritizing high on-target activity and minimal off-target effects.
 
 🛠️ Tools Used
@@ -23,6 +25,7 @@ To identify efficient and specific CRISPR-Cas9 guide RNAs targeting the EGFP gen
 - Microsoft Excel 
 
 🔬 Methodology
+
 Step 1 — Sequence Retrieval
 The EGFP nucleotide sequence was retrieved from the NCBI Nucleotide database in FASTA format.
 Figure 1 — NCBI FASTA sequence retrieval:
@@ -62,6 +65,7 @@ Figure 5 — Off-target validation in CHOPCHOP:
 
 
 📊 Results
+
 Three high-quality guide RNAs were identified for CRISPR-Cas9 targeting of the EGFP gene:
 Guide RNATarget Sequence (5′→3′)Efficiency ScoreGC ContentMM0MM1gRNA-1GCAGCACGACTTCTTCAAGT + NGG0.8255%01gRNA-2GAAGTTCACCTTGATGCCGT + NGG0.7854%00gRNA-3CTTGTACAGCTCGTCCATGC + NGG0.7552%02
 Key findings:
@@ -73,4 +77,5 @@ gRNA-2 shows the best specificity profile (MM1 = 0)
 
 
 ✅ Conclusion
+
 This project successfully demonstrated a reproducible computational pipeline for CRISPR guide RNA design targeting the EGFP gene. The three selected guide RNAs exhibit strong predicted on-target efficiency, favorable GC content, and minimal off-target risk — making them strong candidates for experimental validation in cell-based CRISPR-Cas9 editing assays.
